@@ -1,5 +1,5 @@
 import dynet as dy
-from Helper_Functions import map_nested_dict
+from Helper_Functions import map_nested_dict, MissingInput
 
 class LSTMCell: #todo: uncouple the linear classifier later
     def __init__(self,input_dim,output_dim,pc):
